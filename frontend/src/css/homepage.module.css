@@ -1,0 +1,26 @@
+.grid{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    width: 20%;
+    cursor: pointer;
+    border: 1px solid red;
+    border-radius: 15px;
+
+}
+.img_card{
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+}
+
+.title{
+    font-weight: bolder;
+}
